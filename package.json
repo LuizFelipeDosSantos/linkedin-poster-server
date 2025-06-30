@@ -1,0 +1,28 @@
+{
+  "name": "linkedin-poster-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizFelipeDosSantos/linkedin-poster-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizFelipeDosSantos/linkedin-poster-server/issues"
+  },
+  "homepage": "https://github.com/LuizFelipeDosSantos/linkedin-poster-server#readme",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "type": "module"
+}
